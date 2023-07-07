@@ -1,0 +1,62 @@
+.login-view {
+    .x-panel-body-default {
+        background: linear-gradient(135deg, #fc5c7d, #6a82fb) !important;
+        position: relative;
+        height: 100vh;
+
+        .login-content {
+            background: white !important;
+            border-radius: 20px;
+
+            .login-text {
+                font-size: 24px;
+                font-weight: 600;
+            }
+
+            .x-panel-body-default {
+                background: white !important;
+            }
+
+            .x-form-trigger-wrap-default {
+                height: 40px;
+            }
+
+            .login-password-wrap {
+                position: relative !important;
+
+                .show-password-button {
+                    position: absolute !important;
+                    background: transparent;
+                    border: none;
+
+                    top: 30px;
+                    right: 0px;
+                    width: 40px;
+                    height: 40px;
+
+                    .x-btn-icon-el.x-btn-icon-el-default-small {
+                        color: black;
+                    }
+
+                    &.x-focus.x-btn-focus.x-btn-default-small {
+                        background: transparent !important;
+                        -webkit-box-shadow: none !important
+                    }
+                }
+            }
+
+            .login-button {
+                background: linear-gradient(135deg, #6a82fb, #fc5c7d) !important;
+                border: none;
+                border-radius: 10px;
+
+                height: 40px;
+                margin-top: 10px;
+
+                .x-btn-inner-default-small {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
